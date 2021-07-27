@@ -14,7 +14,7 @@ describe("#titleCase", () => {
     assert.strictEqual(titleCase("i r cool"), "I R Cool");
   });
 
-  it('should return "WHAT HAPPENS HERE" for "What Happens Here"', () => {
+  it('should return "What Happens Here" for "WHAT HAPPENS HERE"', () => {
     assert.strictEqual(titleCase("WHAT HAPPENS HERE"), "What Happens Here");
   });
 
